@@ -15,18 +15,15 @@
 &soft_off { /delete-property/ split-peripheral-off-on-press; };
 
 &mt {
+    tapping-term-ms = <400>;
     quick-tap-ms = <175>;
     require-prior-idle-ms = <150>;
-    flavor = "hold-preferred";
+    flavor = "balanced";
 };
 
-flavor = "
+&lt { tapping-term-ms = <400>; };
 
-hold-preferred {
-    ";};
-
-/
-
+/ {
     combos {
         compatible = "zmk,combos";
 
