@@ -96,6 +96,8 @@
 &none  &kp Q           &kp J           &kp V        &kp D             &kp K      &kp X      &kp H              &kp COMMA     &kp DOT          &kp FSLH         &none
                                        &kp ESCAPE   &lt 3 SPACE       &kp TAB    &kp ENTER  &lt 2 BACKSPACE    &lt 4 DELETE
             >;
+
+            label = "canary matrix";
         };
 
         qwerty {
@@ -105,6 +107,8 @@
 &trans  &kp Z  &kp X  &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
                       &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "qwerty";
         };
 
         num {
@@ -114,6 +118,8 @@
 &trans  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH             &none   &kp TAB          &none      &none          &none           &trans
                                         &kp PERIOD    &kp N0        &kp MINUS            &trans  &trans           &trans
             >;
+
+            label = "num";
         };
 
         nav {
@@ -123,6 +129,8 @@
 &trans  &kp LEFT_ALT    &kp HOME            &kp LCTRL       &kp END              &kp INSERT       &none           &kp K_APPLICATION  &none      &none          &none          &trans
                                             &trans          &trans               &trans           &trans          &trans             &trans
             >;
+
+            label = "nav";
         };
 
         fun {
@@ -132,6 +140,8 @@
 &trans  &kp F10  &kp F1  &kp F2  &kp F3     &kp C_VOL_DN    &none  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_BRIGHTNESS_DEC  &trans
                          &to 5   &kp SPACE  &kp TAB         &to 0  &to 1              &trans
             >;
+
+            label = "fun";
         };
 
         blue {
@@ -141,6 +151,8 @@
 &trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans        &trans  &trans  &trans
             >;
+
+            label = "bluetooth";
         };
     };
 };
