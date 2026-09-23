@@ -96,7 +96,7 @@
 &none  &kp W           &kp L           &kp Y        &kp P             &kp B      &kp Z      &kp F              &kp O         &kp U            &kp SQT          &none
 &none  &mt LEFT_GUI C  &mt LEFT_ALT R  &mt LCTRL S  &mt LEFT_SHIFT T  &kp G      &kp M      &mt RIGHT_SHIFT N  &mt RCTRL E   &mt RIGHT_ALT I  &mt RIGHT_GUI A  &none
 &none  &kp Q           &kp J           &kp V        &kp D             &kp K      &kp X      &kp H              &kp COMMA     &kp DOT          &kp FSLH         &none
-                                       &kp ESCAPE   &lt 3 SPACE       &kp TAB    &kp ENTER  &lt 2 BACKSPACE    &lt 4 DELETE
+                                       &kp ESCAPE   &lt 4 SPACE       &kp TAB    &kp ENTER  &lt 3 BACKSPACE    &lt 5 DELETE
             >;
 
             label = "canary mx";
@@ -111,6 +111,16 @@
             >;
 
             label = "qwerty";
+        };
+
+        game {
+            label = "game";
+            bindings = <
+&none  &kp W  &kp L  &kp Y   &kp P      &kp B     &kp Z   &kp F   &kp O      &kp U    &kp SQT   &none
+&none  &kp C  &kp R  &kp S   &kp T      &kp G     &kp M   &kp N   &kp E      &kp I    &kp A     &none
+&none  &kp Q  &kp J  &kp V   &kp D      &kp K     &kp X   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &none
+                     &trans  &kp SPACE  &trans    &trans  &trans  &trans
+            >;
         };
 
         num {
@@ -139,8 +149,8 @@
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9     &none      &none  &kp C_VOLUME_DOWN  &kp K_MUTE        &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &trans
 &trans  &kp F11  &kp F4  &kp F5  &kp F6     &none      &none  &kp RIGHT_SHIFT    &kp RCTRL         &kp RIGHT_ALT    &kp RIGHT_GUI         &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3     &none      &to 6  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_BRIGHTNESS_DEC  &trans
-                         &to 5   &kp SPACE  &kp TAB    &to 0  &to 1              &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3     &none      &to 2  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_BRIGHTNESS_DEC  &trans
+                         &to 6   &kp SPACE  &kp TAB    &to 0  &to 1              &trans
             >;
 
             label = "fun";
@@ -155,16 +165,6 @@
             >;
 
             label = "bluetooth";
-        };
-
-        game {
-            label = "game";
-            bindings = <
-&none  &kp W  &kp L  &kp Y       &kp P      &kp B      &kp Z      &kp F          &kp O      &kp U    &kp SQT   &none
-&none  &kp C  &kp R  &kp S       &kp T      &kp G      &kp M      &kp N          &kp E      &kp I    &kp A     &none
-&none  &kp Q  &kp J  &kp V       &kp D      &kp K      &kp X      &kp H          &kp COMMA  &kp DOT  &kp FSLH  &none
-                     &kp ESCAPE  &kp SPACE  &kp TAB    &kp ENTER  &kp BACKSPACE  &to 0
-            >;
         };
     };
 };
